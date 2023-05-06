@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\buildMultiTargeting\CelilCavus.GreenHosting.props" />
+</Project>
