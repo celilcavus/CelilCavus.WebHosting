@@ -10,9 +10,13 @@ internal class Program
 
         // Add services to the container.
         builder.Services.AddControllersWithViews();
+
+        builder.Services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
+
         builder.Services.AddSqlServer<AppDbContext>("Server=.;Database=AspEFCore_GreenHosting;Trusted_Connection=True;TrustServerCertificate=True;");
         builder.Services.AddScoped <DbContext,AppDbContext>();
         builder.Services.AddScoped<IUow,Uow>();
+
         var app = builder.Build();
 
         // Configure the HTTP request pipeline.

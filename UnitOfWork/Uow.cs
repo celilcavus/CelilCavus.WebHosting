@@ -7,6 +7,12 @@ namespace CelilCavus.GreenHosting.UnitOfWork
     public class Uow : IUow
     {
         private readonly DbContext _context;
+
+        public Uow(DbContext context)
+        {
+            _context = context;
+        }
+
         public IGenericRepository<T> GetRepository<T>() where T : class
         {
             return new GenericRepository<T>(_context);

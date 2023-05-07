@@ -16,8 +16,16 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = D:\Software\WinMvc\CelilCavus.GreenHosting
 build_property._RazorSourceGeneratorDebug = 
 
-[D:/Software/WinMvc/CelilCavus.GreenHosting/Views/AboutUs/AboutUs.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWJvdXRVc1xBYm91dFVzLmNzaHRtbA==
+[D:/Software/WinMvc/CelilCavus.GreenHosting/Views/AboutUs/About.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWJvdXRVc1xBYm91dC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Software/WinMvc/CelilCavus.GreenHosting/Views/AboutUs/AboutList.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWJvdXRVc1xBYm91dExpc3QuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Software/WinMvc/CelilCavus.GreenHosting/Views/AboutUs/Update.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWJvdXRVc1xVcGRhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [D:/Software/WinMvc/CelilCavus.GreenHosting/Views/AdminPanel/Index.cshtml]
